@@ -1,0 +1,42 @@
+@import "../../../styles";
+
+.container{
+    z-index: -100;
+    margin-top: 101px;
+    i{
+        color: $primary-color-dark;
+        font-size: 100px;
+        transition: all 1s ease;
+    }
+    hr{
+        background: $accent-color;
+    }
+    h3,h4{
+        color:$secondary-text-color;
+        font-weight: bold;
+        text-align: center;
+    }
+    p{
+        color:$secondary-text-color;
+    }
+    .empresa,.mapa,.mision-vision,.razones{
+        background: white;
+        box-shadow:$border-shadow-bread;
+        padding: 20px 10px;
+        margin-bottom: 20px;
+    }
+    .razones{
+        text-align: center;
+        transition: all 1s ease;
+        i{
+            color: $primary-color-dark;
+            font-size: 100px;
+            transition: all 1s ease;
+        }
+        &:hover{
+            i{
+                transform: rotateX(360deg);
+            }
+        }        
+    }
+}

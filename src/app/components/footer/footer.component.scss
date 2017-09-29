@@ -1,0 +1,66 @@
+@import "../../../styles";
+footer{
+    color: $primary-color-text;
+    
+    .fot1{
+        // box-shadow: $border-shadow-hover;
+        // z-index: 20;
+        .row{
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        // padding: 15px 5px;
+        background: $primary-color;
+        ul{
+            display: flex;
+            margin: 0;
+            li{
+                margin-right: 50px;
+                list-style: none;
+                a{
+                    color: $primary-color-text;
+                }
+            }
+        }
+        .redes{
+            // justify-content: space-around;
+            .red-social{
+                cursor: pointer;
+                margin-left: 42px;
+                background: white;
+                width: 57px;
+                box-shadow: $border-shadow-bread;
+                display: flex;
+                a{
+                    height: 100%;
+                    width: 57px;
+                    font-size: 30px;
+                    text-align: center;
+                    color: $primary-color;
+                    &:hover{
+                        color: $primary-color-text;
+                    }
+                }
+            }
+            .eq-facebook{
+                &:hover{
+                    background: $facebook-color;
+                }
+            }
+            .eq-twitter{
+                &:hover{
+                    background: $twitter-color;
+                }
+            }
+            .eq-linkedin{
+                &:hover{
+                    background: $linkedin-color;
+                }
+            }
+        }
+        
+    }
+    .fot2{
+        background: $primary-color-dark;
+    }
+}

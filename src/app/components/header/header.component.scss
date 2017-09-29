@@ -1,0 +1,72 @@
+@import "../../../styles";
+
+nav{
+    padding-left: 70px;
+    padding-right: 70px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    // background: rgba(255, 255, 255, 0.65);
+    // background: $primary-color;
+    // background: rgba(156, 39, 176, 0.70);
+    // background: rgba(103, 58, 183, 0.85);
+    // background: $primary-color-dark;
+    // background: rgba(81, 45, 168, 0.78);
+    background: rgba(0, 151, 167, 0.88);
+    box-shadow: $border-shadow-bread;
+    @media screen and (max-width:576px){
+        padding: 7px;
+    }
+    .navbar-toggler{
+        border:1.5px solid;
+        // border-color:$primary-color;
+        border-color:$primary-color-text;        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 25px;
+        display: none;
+        cursor: pointer;
+        &:focus{
+            outline: none;
+        }        
+        i{
+            // color:$accent-color;
+            color:$primary-color-text;            
+            font-size: 20px;
+        }
+        @media screen and (max-width:768px){
+            display: inline-block;
+        }
+        
+    }
+    .navbar-brand{
+            color: white;
+            font-weight: bold;
+        img{
+            height: 75px;
+            @media screen and (max-width:768px){
+                height: 50px;
+            }
+        }
+    }
+    .items-menu{
+        justify-content: flex-end;
+        li{
+         margin-left: 90px;
+        }
+        a{
+        //  color: #AF33C5;
+         color: white;
+         font-size: 18px;
+         font-weight: bold;
+         &:hover{
+             text-decoration: underline;
+             text-decoration-color: $accent-color;
+         }
+         @media screen and (max-width:576px){
+            font-size:16px;
+         }
+        }
+    }
+}

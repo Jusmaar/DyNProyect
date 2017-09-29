@@ -1,0 +1,87 @@
+
+<app-header></app-header>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+          <div class="empresa">
+              <h3>¿Quienes somos?</h3>
+              <hr>
+              <p>
+                  Inversiones DyN es una empresa comprometida en brindar un servicio exclusivo de traslado para novios, eventos. <br>
+                  Se fundo por la iniciativa emprendedora de las necesidades del mercado objetivo 
+                  decidimos formar una empresa que brinde un servicio serio, formal y comprometido. <br>
+                  
+                  Nuestro objetivo es ofrecer un servicio personalizado empleando los mejores estándares de calidad,
+                  combinando una sensación de seguridad, confort y puntualidad. <br>
+                  
+                  Ponemos a su disposición la más moderna flota de unidades.
+                  
+              </p>
+          </div>
+    </div>
+    <div class="col-md-6">
+      <div class="mapa">
+          <h3>Ubicación</h3>
+          <hr>
+          <div class="lib-map">
+              <agm-map [latitude]="lat" [longitude]="lng">
+                  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+              </agm-map>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="mision-vision">
+        <h3>Misión</h3>
+        <hr>
+        <p>
+            Nuestra razón de ser es conocer y satisfacer las necesidades de nuestros clientes,  superando sus expectativas.
+            Prima el trabajo en equipo, dando lo mejor de cada uno con respeto y solidaridad, integramos nuestros esfuerzos
+            para alcanzar los objetivos comunes. <br>
+            
+            Estamos comprometidos con el desarrollo del personal considerándolo la clave del éxito.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="mision-vision">
+        <h3>Visión</h3>
+        <hr>
+        <p>
+            Ser la empresa líder y preferida por los personas , siendo reconocidos por la calidad del servicio
+            prestado en el mercado en que competimos.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="razones">
+          <i class="fa fa-shield" aria-hidden="true"></i>
+          <hr>
+          <h4>Seguridad</h4>          
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="razones">
+          <i class="fa fa-handshake-o" aria-hidden="true"></i>
+          <hr>
+          <h4>Confianza</h4>          
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="razones">
+          <i class="fa fa-clock-o" aria-hidden="true"></i>
+          <hr>
+          <h4>Puntualidad</h4>          
+      </div>
+    </div>
+  </div>
+
+</div>
+<app-footer></app-footer>

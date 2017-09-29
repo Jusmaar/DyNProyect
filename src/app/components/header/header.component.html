@@ -1,0 +1,25 @@
+
+<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" [routerLink]="['/inicio']">
+    <img src="./assets/img/logo4.png" alt="logo">
+    <!-- InversionesDyN -->
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+  </button>
+  <!-- <div class="> -->
+      <div class="items-menu collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item" routerLinkActive="active">
+              <a class="nav-link" [routerLink]="['/inicio']">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+              <a class="nav-link" [routerLink]="['/nuestros-autos']">Nuestros autos</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+              <a class="nav-link" [routerLink]="['/conocenos']">Conócenos</a>
+            </li>
+          </ul>
+        </div>
+  <!-- </div> -->
+</nav>
